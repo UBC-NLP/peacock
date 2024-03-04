@@ -1,7 +1,7 @@
 <div align="center">
 
 
-<h2 class="papername"> <img src="./assets/logo3.png" style="vertical-align: -10px;" :height="50px" width="50px">  Peacock: A Family of Arabic Multimodal Large Language Models and Benchmarks </h2>
+<h2 class="papername"> <img src="./assets/logo3.png" style="vertical-align: middle; height: 1.0em; padding: 0 0.2em;"> Peacock: A Family of Arabic Multimodal Large Language Models and Benchmarks </h2>
 <div>
 <div>
     <a href="https://dlnlp.ai/index.html#Team" target="_blank">Fakhraddin Alwajih</a>,
