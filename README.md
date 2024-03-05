@@ -16,8 +16,8 @@ The University of British Columbia, Invertible AI<br>
 
 <p align="center">
     <a href='https://github.com/UBC-NLP/peacock'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
-    <a href='http://arxiv.org/abs/xxxx'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
-    <!-- <a href='http://demo.com:7860'><img src='https://img.shields.io/badge/Online-Demo-green'></a> -->
+    <a href='https://arxiv.org/abs/2403.01031'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+   
   </p> 
 
 :fire: Details will be released. Stay tuned :beers: :+1: 
@@ -29,7 +29,7 @@ The University of British Columbia, Invertible AI<br>
 ## If you find this work useful for your research, please kindly cite our paper and star our repo.
 
 ## Updates
-- [02/2024] [Arxiv paper](https://arxiv.org/abs/xx) released.
+- [01/03/2024] [Arxiv paper](https://arxiv.org/abs/2403.01031) released.
 <!-- - [11/2023] [Project page](https://peacock.github.io) released. -->
 
 ## Abstract
@@ -68,7 +68,7 @@ If you find this work useful for your research, please kindly cite our paper:
     title={Peacock: A Family of Arabic Multimodal Large Language Models
 and Benchmarks},
     author={Alwajih, Fakhraddin and Nagoudi, El Moatez Billah and Bhatia, Gagan and Mohamed, Abdelrahman and Abdul-Mageed, Muhammad},
-    journal={arXiv preprint arXiv:xxxx},
+    journal={arXiv preprint arXiv:2403.01031},
     year={2024}
 }
 ```
