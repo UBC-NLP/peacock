@@ -12,11 +12,11 @@
 </div>
 
 The University of British Columbia, Invertible AI<br>
-
-
 <p align="center">
     <a href='https://github.com/UBC-NLP/peacock'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
     <a href='https://arxiv.org/abs/2403.01031'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+     <a href='https://huggingface.co/datasets/UBC-NLP/Henna-Bench-Eval'><img src='https://img.shields.io/badge/Dataset-HuggingFace-blue'></a>
+    <a href='https://aclanthology.org/2024.acl-long.689/'><img src='https://img.shields.io/badge/Publication-ACL2024-orange'></a>
    
   </p> 
 
@@ -26,11 +26,14 @@ The University of British Columbia, Invertible AI<br>
 </div>
 
 
-## If you find this work useful for your research, please kindly cite our paper and star our repo.
+## If you find this work useful for your research, please kindly cite our paper and star our repository.
 
 ## Updates
-- [01/03/2024] [Arxiv paper](https://arxiv.org/abs/2403.01031) released.
-<!-- - [11/2023] [Project page](https://peacock.github.io) released. -->
+- **[09/12/2014]** We've released Peacock weights: [Model](https://huggingface.co/UBC-NLP/Peacock)
+- **[09/12/2014]** We've released Henna benchmark and evaluation datasets: [Henna & Eval](https://huggingface.co/datasets/UBC-NLP/Henna-Bench-Eval)
+- **[15/05/2024]** [Peacock](https://aclanthology.org/2024.acl-long.689/) has been accepted at the ACL2024 main conference.
+- **[01/03/2024]** [ArXiv paper](https://arxiv.org/abs/2403.01031) released.
+
 
 ## Abstract
 Multimodal large language models (MLLMs) have proven effective in a wide range of tasks requiring complex reasoning and linguistic comprehension. However, due to a lack of high-quality multimodal resources in languages other than English, success of MLLMs remains relatively limited to English-based settings. This poses significant challenges in developing comparable models for other languages, including even those with large speaker populations such as Arabic. To alleviate this challenge, we introduce a comprehensive family of Arabic MLLMs, dubbed Peacock, with strong vision and language capabilities. Through comprehensive qualitative and quantitative analysis, we demonstrate the solid performance of our models on various visual reasoning tasks and further show their emerging dialectal potential. Additionally, we introduce Henna, a new benchmark specifically designed for assessing MLLMs on aspects related to Arabic culture, setting the first stone for culturally-aware Arabic MLLMs.
@@ -64,13 +67,24 @@ models on SEED-Benchmark dimensions.
 
 If you find this work useful for your research, please kindly cite our paper:
 ```
-@article{alwajih2024peacock,
-    title={Peacock: A Family of Arabic Multimodal Large Language Models
-and Benchmarks},
-    author={Alwajih, Fakhraddin and Nagoudi, El Moatez Billah and Bhatia, Gagan and Mohamed, Abdelrahman and Abdul-Mageed, Muhammad},
-    journal={arXiv preprint arXiv:2403.01031},
-    year={2024}
-}
+@inproceedings{alwajih-etal-2024-peacock,
+    title = "Peacock: A Family of {A}rabic Multimodal Large Language Models and Benchmarks",
+    author = "Alwajih, Fakhraddin  and
+      Nagoudi, El Moatez Billah  and
+      Bhatia, Gagan  and
+      Mohamed, Abdelrahman  and
+      Abdul-Mageed, Muhammad",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.689",
+    doi = "10.18653/v1/2024.acl-long.689",
+    pages = "12753--12776"
 ```
 
 
